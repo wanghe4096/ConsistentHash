@@ -5,10 +5,6 @@ import (
 	"github.com/emirpasic/gods/maps/treemap"
 )
 
-const (
-	MaxSize = 4294967295 // 2^32-1
-)
-
 type Node interface {
 	Name() string
 	Index() int
